@@ -9,7 +9,8 @@ struct AdventurePokedexUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            LaunchScreenView()
+//            LaunchScreenView()
+            AllPokemonListView(pokemon: AllPokemonModel(name: "", idPkn: 0))
         }
     }
 }
