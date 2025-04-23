@@ -1,9 +1,6 @@
-//
 //  ContentView.swift
 //  AdventurePokedexUI
-//
 //  Created by Abraham Vazquez on 15/04/25.
-//
 
 import SwiftUI
 

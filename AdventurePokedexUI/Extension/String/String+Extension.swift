@@ -78,3 +78,7 @@ extension String {
         }
     }
 }
+
+protocol PathsProtocol {
+    var strPathToUse: String { get }
+}
