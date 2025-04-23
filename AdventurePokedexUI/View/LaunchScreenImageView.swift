@@ -13,7 +13,7 @@ struct LaunchScreenImageView: View {
                 .frame(width: 500, height: 600)
                 .clipShape(.circle)
                 .overlay( Circle().stroke( Color(.white), lineWidth: 5 ) )
-                .shadow(color: .white, radius: 65)
+                .shadow(color: .gray, radius: 65)
                 .background(.clear)
         }
     }
