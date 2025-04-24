@@ -18,7 +18,3 @@ struct LaunchScreenImageView: View {
         }
     }
 }
-
-#Preview {
-    LaunchScreenImageView()
-}

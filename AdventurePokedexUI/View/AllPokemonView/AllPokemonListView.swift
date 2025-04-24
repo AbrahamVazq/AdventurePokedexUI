@@ -11,31 +11,20 @@ struct AllPokemonListView: View {
     let pokemon: AllPokemonModel
     
     var body: some View {
-        
         ZStack {
             NavigationView {
-                
                 ZStack {
                     Color.black
                         .edgesIgnoringSafeArea(.all)
-                    
                     List {
-                        
                         ForEach(pokemonViewModel.allPokemon) { pokemon in
                             AllPokemonRow(pokemon: pokemon)
-                            
                         }
-                        
+                        .listRowSeparator(.hidden)
                     }
                     .navigationTitle("Pokémon Adventures")
-                    
-                    
                 }
-                
             }
-            .foregroundStyle(.black)
-            
-            
         }
     }
 }
