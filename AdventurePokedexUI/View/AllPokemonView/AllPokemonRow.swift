@@ -9,26 +9,24 @@ struct AllPokemonRow: View {
     var pokemon: AllPokemonModel
     
     var body: some View {
-        
         ZStack {
             Color.black
                 .edgesIgnoringSafeArea(.all)
-            
             HStack {
                 HStack {
                     Text("#\(pokemon.idPkn) \(pokemon.name)")
                         .font(.title)
                         .foregroundStyle(.white)
+                        .bold()
                     Spacer()
                     Image("whitePokeball")
                         .resizable()
                         .scaledToFill()
+                        .padding(EdgeInsets(top: 10, leading: 15 ,bottom: -30, trailing: -30))
                         .frame(width: 60, height: 60)
-                        .padding(EdgeInsets(top: 0, leading: -60, bottom: 0, trailing: 0))
-//
                 }
             }
-            
         }
+        .cornerRadius(10)
     }
 }
