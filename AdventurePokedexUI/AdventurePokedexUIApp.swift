@@ -11,6 +11,7 @@ struct AdventurePokedexUIApp: App {
 //            ContentView()
 //            LaunchScreenView()
             AllPokemonListView(pokemon: AllPokemonModel(name: "", idPkn: 0))
+//            AllPokemonBlackTEST(pokemon: AllPokemonModel(name: "", idPkn: 0))
         }
     }
 }

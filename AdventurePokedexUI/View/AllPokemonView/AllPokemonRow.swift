@@ -27,6 +27,6 @@ struct AllPokemonRow: View {
                 }
             }
         }
-        .cornerRadius(10)
+        .cornerRadius(4)
     }
 }
